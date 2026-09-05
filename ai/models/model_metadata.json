@@ -1,0 +1,46 @@
+{
+  "model_name": "NER-YATRI Random Forest Landslide Risk Estimator",
+  "version": "1.0-demo",
+  "type": "RandomForestClassifier",
+  "features": [
+    "slope",
+    "elevation",
+    "rainfall_24h",
+    "rainfall_12h",
+    "rainfall_6h",
+    "rainfall_1h",
+    "soil_moisture",
+    "soil_type",
+    "geology",
+    "vegetation_ndvi",
+    "land_use",
+    "historical_landslide_density"
+  ],
+  "feature_importances": {
+    "slope": 0.3027,
+    "rainfall_24h": 0.1634,
+    "rainfall_1h": 0.1188,
+    "rainfall_12h": 0.1122,
+    "rainfall_6h": 0.1062,
+    "soil_moisture": 0.0752,
+    "historical_landslide_density": 0.0292,
+    "vegetation_ndvi": 0.028,
+    "geology": 0.0262,
+    "elevation": 0.0203,
+    "land_use": 0.0117,
+    "soil_type": 0.0059
+  },
+  "training_date": "2026-09-04T09:03:46.529453Z",
+  "dataset_source": "Demonstration Dataset (Calibrated for Northeast Terrain)",
+  "source_type": "DEMO",
+  "accuracy": 0.91,
+  "f1_macro": 0.6725,
+  "prediction_window": "6\u201324 hours",
+  "risk_thresholds": {
+    "LOW": "0 - 25%",
+    "MEDIUM": "25 - 50%",
+    "HIGH": "50 - 75%",
+    "VERY HIGH": "75 - 100%"
+  },
+  "disclaimer": "Predicted risk for 6\u201324 hours. Demonstration model calibrated on terrain physics."
+}

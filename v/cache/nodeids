@@ -1,0 +1,23 @@
+[
+  "backend/tests/test_api_endpoints.py::test_calculate_routes",
+  "backend/tests/test_api_endpoints.py::test_dashboard_summary",
+  "backend/tests/test_api_endpoints.py::test_get_risk_zones",
+  "backend/tests/test_api_endpoints.py::test_nearby_risk_query",
+  "backend/tests/test_api_endpoints.py::test_roads_endpoint",
+  "backend/tests/test_api_endpoints.py::test_root_endpoint",
+  "backend/tests/test_api_endpoints.py::test_system_status",
+  "backend/tests/test_api_endpoints.py::test_weather_endpoint",
+  "backend/tests/test_geo_targeting.py::test_haversine_formula",
+  "backend/tests/test_geo_targeting.py::test_point_in_polygon_ray_casting",
+  "backend/tests/test_geo_targeting.py::test_sms_targeting_preview",
+  "backend/tests/test_risk_model.py::test_inference_engine_factor_explainability",
+  "backend/tests/test_risk_model.py::test_inference_engine_low_risk",
+  "backend/tests/test_risk_model.py::test_inference_engine_prediction",
+  "backend/tests/test_routing.py::test_driver_turn_by_turn_alerts",
+  "backend/tests/test_routing.py::test_example_routing",
+  "backend/tests/test_routing.py::test_geometry_geojson_structure",
+  "backend/tests/test_routing.py::test_known_locations_resolution",
+  "backend/tests/test_routing.py::test_multi_criteria_routing_prefers_safety",
+  "backend/tests/test_routing.py::test_route_segment_inspection",
+  "backend/tests/test_simulation.py::test_what_if_simulation_non_mutating"
+]

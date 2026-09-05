@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Clean Government Shield/Frame -->
+  <rect x="12" y="12" width="176" height="176" rx="28" fill="#FFFFFF" stroke="#0B5CAB" stroke-width="6" />
+  <rect x="20" y="20" width="160" height="160" rx="20" fill="#F5F7F9" />
+
+  <!-- Mountain Silhouettes in Government Green & Blue -->
+  <polygon points="35,140 80,75 125,140" fill="#EAF6EF" stroke="#198754" stroke-width="3" stroke-linejoin="round" />
+  <polygon points="90,140 130,85 165,140" fill="#EBF3FA" stroke="#0B5CAB" stroke-width="3" stroke-linejoin="round" />
+
+  <!-- Stylized "N" Letterform (Blue, Orange Waypoint, Green Road) -->
+  <!-- Left Pillar (Blue) -->
+  <rect x="52" y="55" width="18" height="90" rx="4" fill="#0B5CAB" />
+
+  <!-- Diagonal Road Connector (Green) -->
+  <polygon points="68,62 132,138 114,142 52,70" fill="#198754" />
+  <polyline points="60,66 123,140" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="6,4" />
+
+  <!-- Right Pillar (Blue) -->
+  <rect x="130" y="55" width="18" height="90" rx="4" fill="#0B5CAB" />
+
+  <!-- Orange Location Pin on Mountain Peak -->
+  <circle cx="80" cy="58" r="9" fill="#F28C28" stroke="#FFFFFF" stroke-width="2.5" />
+  <circle cx="80" cy="58" r="3.5" fill="#FFFFFF" />
+</svg>
