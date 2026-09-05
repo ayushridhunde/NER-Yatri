@@ -1,8 +1,19 @@
-# pytest cache directory #
+# @babel/core
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+> Babel compiler core.
 
-**Do not** commit this to version control.
+See our website [@babel/core](https://babeljs.io/docs/babel-core) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20core%22+is%3Aopen) associated with this package.
 
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+## Install
+
+Using npm:
+
+```sh
+npm install --save-dev @babel/core
+```
+
+or using yarn:
+
+```sh
+yarn add @babel/core --dev
+```
